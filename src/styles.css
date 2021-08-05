@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #42a5f5;
+}
+
+.formContainer {
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  flex-flow: wrap;
+  padding-top: 60px;
+}
+
+.form {
+  minheight: "350px";
+}
+
+.MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: initial !important;
+  justify-content: center;
+  align-items: center;
+}
+.MuiStepConnector-alternativeLabel {
+  position: initial !important;
+}
+
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 0 !important;
+  padding-left: 10px;
+  text-align: left !important;
+}
+
+.MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: initial !important;
+}
